@@ -5,10 +5,9 @@ body {
 }
 
 .imagem-header {
-  /* Renomeei a classe para ser mais específico */
   display: block; /* Facilita a centralização com margin */
   margin: 20px auto; /* Centraliza o logo do header */
-  max-width: 38%;
+  max-width: 20%;
   max-height: 20vw;
 }
 
@@ -18,15 +17,19 @@ body {
   align-items: center;
   width: 90%;  
   gap: 2%;
+  margin-top: 185px;
   
 }
 
 .esquerda {
-    width: 70%;
+    width: 60%;
     height: 200px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-left: none;
+    margin-right: 400px;
+    margin-top: 145px;
 }
 
 .logo-principal {
